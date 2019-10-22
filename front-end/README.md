@@ -49,7 +49,7 @@ $ npm install
 ## 4. Deploy
 The following command runs the server at **port 80**
 ```bash
-$ npm run serve
+$ sudo nohup npm run serve &
 ```
 
 ## 5. References
