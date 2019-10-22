@@ -36,11 +36,18 @@ $ git clone https://github.com/Bill0412/QidianPaperSearch.git
 ```
 
 ## 2. Install NPM on the server
+
+
 ```bash
-$ sudo -i
-$ curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
-$ sudo apt install nodejs
+# Using Ubuntu
+curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+sudo apt-get install -y nodejs
+
+# Using Debian, as root
+curl -sL https://deb.nodesource.com/setup_12.x | bash -
+apt-get install -y nodejs
 ```
+
 To make sure you have the right NPM and Node.js installed,
 ```bash
 $ node --version
@@ -62,6 +69,6 @@ $ sudo nohup npm run serve &
 ```
 
 ## 5. References
-1. Install NPM on Debian-based server: <https://linuxize.com/post/how-to-install-node-js-on-ubuntu-18.04/>
+1. https://github.com/nodesource/distributions#deb
 
 
