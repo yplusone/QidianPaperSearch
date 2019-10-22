@@ -16,6 +16,15 @@ this is the front-end of QiDianPaper(PaperX)
 Following are the instructions on how to deploy the web on a Debian-based cloud server.
 
 ## 1. Clone the project
+In case you don't have git and curl on the server,
+
+```bash
+$ sudo -i
+$ apt-get update
+$ apt-get install git curl
+```
+
+Then clone the project,
 ```bash
 $ git clone https://github.com/Bill0412/QidianPaperSearch.git
 ```
