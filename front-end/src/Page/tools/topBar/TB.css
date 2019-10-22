@@ -1,0 +1,11 @@
+.buttonBar{
+    height:60px;
+    width:1536px;
+    background: rgba(29, 95, 219, 0.9);
+    padding:0px 100px;
+}
+.buttonBar p{
+    font-size: 1rem;
+    color: #ffffff;
+    margin: 0px;
+}

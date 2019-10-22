@@ -1,0 +1,64 @@
+.LoginOutSide{
+    width:100%;
+    min-height:100vh;
+    background: #ffffff;
+}
+.LoginInfo{
+    width:100%;
+    height:150px;
+    padding:50px 0px;
+    background: rgba(33,102,229,0.9);
+    padding-left:100px;
+    font-weight: bold;
+    font-size:2rem;
+    color:white;
+}
+.LoginContent{
+    width:100%;
+    height:600px;
+    padding: 0px 50px;
+    margin-bottom: 100px;
+}
+.LoginInfoContent{
+    width:60%;
+    height:600px;
+    padding: 0px 90px 0px 50px;
+}
+.LoginInfoTips{
+    width:40%;
+    height:600px;
+    background: #cfcfcf;
+    padding:10px 20px;
+}
+.InfoLoginWord{
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.InfoLoginWordSmall{
+    margin-top: 0px;
+}
+.InfoLoginForm{
+    width:400px;
+    height:120px;
+    padding-left: 40px;
+    margin:15px 0px;
+}
+.InfoLoginForm2{
+    width:400px;
+    height:40px;
+    padding-left: 40px;
+}
+.InfoLoginTip{
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.InfoLoginTipSmall{
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
